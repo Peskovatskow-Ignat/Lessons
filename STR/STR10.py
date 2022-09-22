@@ -1,0 +1,6 @@
+phone = input('Phone')
+phone = phone.replace('(', '')
+phone = phone.replace(')', '')
+phone = phone.replace('-', '')
+phone = phone.replace(' ', '')
+print(phone)
