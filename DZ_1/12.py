@@ -1,0 +1,9 @@
+a=10.2
+b=8.6
+g=5
+v=3
+per=20
+print(round(a*b,2))
+print(round(((a*b)/g)*1.20,2))
+print(round((((a*b)/g)*1.20)/3+1))
+print(round(((((a*b)/g)*1.20)/3+1)*v-((a*b)/g)*1.20,2))
