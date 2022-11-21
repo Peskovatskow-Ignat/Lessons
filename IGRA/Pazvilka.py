@@ -9,12 +9,14 @@ def Predlog(stroka):
     print('\n')
 
 def PES(stroka):
+    print('ANYTA: ', end="")
     for slovo in stroka:
         print(slovo, end="", flush=True)
         time.sleep(0.1)
     print('\n')
 
 def GLAVA(stroka):
+    print('DOGS: ', end="")
     for slovo in stroka:
         print(slovo, end="", flush=True)
         time.sleep(0.1)
@@ -22,6 +24,7 @@ def GLAVA(stroka):
 
 
 def Zemly(stroka):
+    print('Cherv: ', end="")
     for slovo in stroka:
         print(slovo, end="", flush=True)
         time.sleep(0.1)  # Время в мс
