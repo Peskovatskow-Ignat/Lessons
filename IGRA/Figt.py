@@ -16,7 +16,7 @@ class Game():
             if hit == 1:
                 b = randint(200, 500)
                 self.hp_1 -= b
-                print('У кикиморы осталось ', self.hp_1, 'hp')
+                print('У Собачки осталось ', self.hp_1, 'hp')
                 sleep(1)
                 print('Собакен бьет вас левой лапой')
                 sleep(1)
@@ -70,3 +70,6 @@ class Game():
 ███████▀░░░░▀▀██████████▀
                 ''')
                 exit()
+
+
+Game()
