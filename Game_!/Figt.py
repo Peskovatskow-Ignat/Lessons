@@ -71,5 +71,3 @@ class Game():
                 ''')
                 exit()
 
-
-Game()
