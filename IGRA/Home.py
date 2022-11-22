@@ -4,7 +4,7 @@ import Pazvilka
 def Predlog(stroka):
     for slovo in stroka:
         print(slovo, end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.03)
     print('\n')
 
 
@@ -51,7 +51,7 @@ def Proba():
     def Predlog(stroka):
         for slovo in stroka:
             print(slovo, end="", flush=True)
-            time.sleep(0.1)  # Время в мс
+            time.sleep(0.03)
         print('\n')
     Predlog('Вы просыпаетесь от лёгкого прохладного ветра')
     Predlog('Вы видете вокруг себя множество сияющих цветов...')

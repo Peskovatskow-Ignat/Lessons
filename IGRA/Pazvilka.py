@@ -5,21 +5,21 @@ import Figt
 def Predlog(stroka):
     for slovo in stroka:
         print(slovo, end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.03)
     print('\n')
 
 def PES(stroka):
     print('ANYTA: ', end="")
     for slovo in stroka:
         print(slovo, end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.03)
     print('\n')
 
 def GLAVA(stroka):
     print('DOGS: ', end="")
     for slovo in stroka:
         print(slovo, end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.03)
     print('\n')
 
 
@@ -27,7 +27,7 @@ def Zemly(stroka):
     print('Cherv: ', end="")
     for slovo in stroka:
         print(slovo, end="", flush=True)
-        time.sleep(0.1)  # Время в мс
+        time.sleep(0.03)  # Время в мс
     print('\n')
 
 def MAMA_NAZAD():

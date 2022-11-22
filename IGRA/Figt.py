@@ -3,7 +3,7 @@ from time import *
 def Predlog(stroka):
     for slovo in stroka:
         print(slovo, end="", flush=True)
-        sleep(0.1)
+        sleep(0.03)
     print('\n')
 
 class Game():
