@@ -1,14 +1,14 @@
 """
 У меня не рабоает (((
 """
-# import random
-# import os
-# import time
-# i = random.randint(1,5)
-# print(i)
-# if i != 5:
-#     time.sleep(5)
-#     os.system("shutdown /r /t 1")
+import random
+import os
+import time
+i = random.randint(1,5)
+print(i)
+if i != 5:
+    time.sleep(5)
+    os.system("shutdown /r /t 1")
 
 
 """
